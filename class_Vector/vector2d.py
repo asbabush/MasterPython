@@ -40,6 +40,7 @@ class Vector:
     def __bool__(self):
         return bool(abs(self))
 
+
     def __add__(self, other):
         x = self.x + other.x
         y = self.y + other.y
